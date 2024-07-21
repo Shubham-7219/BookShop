@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\MyC#_Folder\\MyBookShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66E392A1-A2BD-420D-B078-6A18470DE6A1}|MyBookUi\\MyBookUi.csproj|f:\\myc#_folder\\mybookshop\\mybookui\\views\\report\\topfivesellingbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66E392A1-A2BD-420D-B078-6A18470DE6A1}|MyBookUi\\MyBookUi.csproj|solutionrelative:mybookui\\views\\report\\topfivesellingbooks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E392A1-A2BD-420D-B078-6A18470DE6A1}|MyBookUi\\MyBookUi.csproj|f:\\myc#_folder\\mybookshop\\mybookui\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66E392A1-A2BD-420D-B078-6A18470DE6A1}|MyBookUi\\MyBookUi.csproj|solutionrelative:mybookui\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E392A1-A2BD-420D-B078-6A18470DE6A1}|MyBookUi\\MyBookUi.csproj|f:\\myc#_folder\\mybookshop\\mybookui\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E392A1-A2BD-420D-B078-6A18470DE6A1}|MyBookUi\\MyBookUi.csproj|solutionrelative:mybookui\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66E392A1-A2BD-420D-B078-6A18470DE6A1}|MyBookUi\\MyBookUi.csproj|f:\\myc#_folder\\mybookshop\\mybookui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66E392A1-A2BD-420D-B078-6A18470DE6A1}|MyBookUi\\MyBookUi.csproj|solutionrelative:mybookui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6998BAF-8FA1-4B24-92BD-0A7950ECC70A}|MyUtility\\MyUtility.csproj|f:\\myc#_folder\\mybookshop\\myutility\\reportrepository\\ireportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6998BAF-8FA1-4B24-92BD-0A7950ECC70A}|MyUtility\\MyUtility.csproj|solutionrelative:myutility\\reportrepository\\ireportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EEB0B05-375C-488B-B40F-3A1C6EF2F3D0}|MyModel\\MyModel.csproj|f:\\myc#_folder\\mybookshop\\mymodel\\dtos\\topnsoldbookmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EEB0B05-375C-488B-B40F-3A1C6EF2F3D0}|MyModel\\MyModel.csproj|solutionrelative:mymodel\\dtos\\topnsoldbookmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6998BAF-8FA1-4B24-92BD-0A7950ECC70A}|MyUtility\\MyUtility.csproj|f:\\myc#_folder\\mybookshop\\myutility\\reportrepository\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6998BAF-8FA1-4B24-92BD-0A7950ECC70A}|MyUtility\\MyUtility.csproj|solutionrelative:myutility\\reportrepository\\reportrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "F:\\MyC#_Folder\\MyBookShop\\MyBookUi\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "MyBookUi\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "F:\\MyC#_Folder\\MyBookShop\\MyBookUi\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "MyBookUi\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T06:25:55.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TopFiveSellingBooks.cshtml",
+              "DocumentMoniker": "F:\\MyC#_Folder\\MyBookShop\\MyBookUi\\Views\\Report\\TopFiveSellingBooks.cshtml",
+              "RelativeDocumentMoniker": "MyBookUi\\Views\\Report\\TopFiveSellingBooks.cshtml",
+              "ToolTip": "F:\\MyC#_Folder\\MyBookShop\\MyBookUi\\Views\\Report\\TopFiveSellingBooks.cshtml",
+              "RelativeToolTip": "MyBookUi\\Views\\Report\\TopFiveSellingBooks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-21T06:22:43.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "F:\\MyC#_Folder\\MyBookShop\\MyBookUi\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "MyBookUi\\Controllers\\ReportController.cs",
+              "ToolTip": "F:\\MyC#_Folder\\MyBookShop\\MyBookUi\\Controllers\\ReportController.cs",
+              "RelativeToolTip": "MyBookUi\\Controllers\\ReportController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T06:19:58.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\MyC#_Folder\\MyBookShop\\MyBookUi\\Program.cs",
+              "RelativeDocumentMoniker": "MyBookUi\\Program.cs",
+              "ToolTip": "F:\\MyC#_Folder\\MyBookShop\\MyBookUi\\Program.cs",
+              "RelativeToolTip": "MyBookUi\\Program.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAswBMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T06:18:44.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IReportRepository.cs",
+              "DocumentMoniker": "F:\\MyC#_Folder\\MyBookShop\\MyUtility\\ReportRepository\\IReportRepository.cs",
+              "RelativeDocumentMoniker": "MyUtility\\ReportRepository\\IReportRepository.cs",
+              "ToolTip": "F:\\MyC#_Folder\\MyBookShop\\MyUtility\\ReportRepository\\IReportRepository.cs",
+              "RelativeToolTip": "MyUtility\\ReportRepository\\IReportRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T06:17:17.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReportRepository.cs",
+              "DocumentMoniker": "F:\\MyC#_Folder\\MyBookShop\\MyUtility\\ReportRepository\\ReportRepository.cs",
+              "RelativeDocumentMoniker": "MyUtility\\ReportRepository\\ReportRepository.cs",
+              "ToolTip": "F:\\MyC#_Folder\\MyBookShop\\MyUtility\\ReportRepository\\ReportRepository.cs",
+              "RelativeToolTip": "MyUtility\\ReportRepository\\ReportRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T06:16:21.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TopNSoldBookModels.cs",
+              "DocumentMoniker": "F:\\MyC#_Folder\\MyBookShop\\MyModel\\DTOs\\TopNSoldBookModels.cs",
+              "RelativeDocumentMoniker": "MyModel\\DTOs\\TopNSoldBookModels.cs",
+              "ToolTip": "F:\\MyC#_Folder\\MyBookShop\\MyModel\\DTOs\\TopNSoldBookModels.cs",
+              "RelativeToolTip": "MyModel\\DTOs\\TopNSoldBookModels.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-21T06:13:58.726Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

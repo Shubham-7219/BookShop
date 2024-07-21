@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyBookUi</title>
+    <link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="~/css/site.css" rel="stylesheet" />
+ 
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white fw-bold" href="#">MyEcommerce</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="/Home/Index">
+                            Home
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="/Home/Privacy">Privacy</a>
+                    </li>
+                    @if(User.IsInRole(MyDataAccess.MyConstant.Roles.Admin.ToString())){
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/AdminOperations/Dashboard">Dashboard</a>
+                        </li>
+
+                    @* <li class="nav-item">
+                            <a class="nav-link text-white" href="/AdminOperations/AllOrders">Order</a>
+                    </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Stock/Index">Stock</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Genre/Index">Genre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/Book/Index">Book</a>
+                        </li> *@
+                    }
+                </ul>
+                <partial name="_LoginPartial" />
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <partial name="_Notification"/>
+    </div>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - MyBookUi - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        loadCartCount();
+        async function loadCartCount() {
+            console.log("hello");
+            try {
+                var response = await fetch(`/Cart/GetTotalItemInCart`);
+                console.log(response)
+                if (response.status == 200) {
+                    var result = await response.json();
+                    var cartCountEl = document.getElementById("cartCount");
+                    cartCountEl.innerHTML = result;
+                }
+            }
+            catch (err) {
+                console.log(err);
+            }
+        }
+    </script>
+</body>
+
+</html>
+@await RenderSectionAsync("Scripts", required: false)

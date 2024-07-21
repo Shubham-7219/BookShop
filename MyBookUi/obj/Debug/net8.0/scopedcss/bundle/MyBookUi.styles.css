@@ -1,0 +1,140 @@
+/* _content/MyBookUi/Views/Shared/_AdminLayout.cshtml.rz.scp.css */
+body[b-0bjo0xqupe] {
+    padding: 0;
+    margin: 0;
+}
+
+*[b-0bjo0xqupe] {
+    scrollbar-width: thin;
+    scrollbar-color: #486888 #f1f1f1;
+}
+
+    *[b-0bjo0xqupe]::-webkit-scrollbar {
+        width: 12px; /* Width of the scrollbar */
+    }
+
+    *[b-0bjo0xqupe]::-webkit-scrollbar-track {
+        background: #f1f1f1; /* Color of the track */
+    }
+
+    *[b-0bjo0xqupe]::-webkit-scrollbar-thumb {
+        background: #486888; /* Color of the thumb */
+        border-radius: 20px; /* Rounded corners of the thumb */
+    }
+
+        *[b-0bjo0xqupe]::-webkit-scrollbar-thumb:hover {
+            background: #486888; /* Color of the thumb on hover */
+        }
+
+.main-contaier[b-0bjo0xqupe] {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.sidenav[b-0bjo0xqupe] {
+    height: 100%;
+    width: 250px;
+    //background-color: #2c3e50;
+    padding-top: 15px;
+}
+
+.navigation-link[b-0bjo0xqupe] {
+    text-decoration: none;
+    font-size: 17px;
+    color: #ffffff;
+    display: block;
+}
+
+.sidenav a:hover[b-0bjo0xqupe] {
+    background-color: #476584;
+    color: #ffffff !important;
+}
+
+.sidenav a[b-0bjo0xqupe] {
+    padding: 10px 15px;
+}
+
+.right-panel[b-0bjo0xqupe] {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.nav-bar[b-0bjo0xqupe] {
+    background-color: #486888;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-actions[b-0bjo0xqupe] {
+    display: flex;
+    gap: 5px;
+}
+
+    .nav-actions button[b-0bjo0xqupe] {
+        border: none;
+        background: none;
+    }
+
+        .nav-actions a:hover[b-0bjo0xqupe],
+        .nav-actions button:hover[b-0bjo0xqupe] {
+            color: rgb(241, 241, 241);
+        }
+
+.content[b-0bjo0xqupe] {
+    padding: 20px;
+}
+/* _content/MyBookUi/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-zlri957m8f] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-zlri957m8f] {
+  color: #0077cc;
+}
+
+.btn-primary[b-zlri957m8f] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-zlri957m8f], .nav-pills .show > .nav-link[b-zlri957m8f] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-zlri957m8f] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-zlri957m8f] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-zlri957m8f] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-zlri957m8f] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-zlri957m8f] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
